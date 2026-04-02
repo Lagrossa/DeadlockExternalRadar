@@ -32,7 +32,7 @@ public class Minimap {
             throw new IllegalStateException("Unable to initialize GLFW");
         }
 
-        window = glfwCreateWindow(1920, 1080, "LWJGL Minimap Test", NULL, NULL);
+        window = glfwCreateWindow(1920, 1080, "Deadlock Radar", NULL, NULL);
         if (window == NULL) {
             throw new RuntimeException("Failed to create window");
         }
